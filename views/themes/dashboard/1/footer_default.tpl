@@ -1,0 +1,4 @@
+	</body>
+    {$THEMESECTION.HTMLEND}
+</html>
+{$THEMESECTION.AFTERHTML}

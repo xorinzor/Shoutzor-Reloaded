@@ -1,0 +1,9 @@
+Shoutzor.HomeRoute = Ember.Route.extend({
+    setupController: function(controller, model) {
+        controller.set('pageTitle', "");
+    },
+    
+    renderTemplate: function() {
+        this.render('HomePageContent', { outlet: 'pageContent', into: 'application' });
+    }
+});

@@ -1,0 +1,206 @@
+Shoutzor.SettingsPageContentView = Ember.View.extend({
+	intervalUpdate: null,
+
+    didInsertElement: function(event) {
+    	
+    	$('#volume').knobRot({
+			'classes': ['volume'],
+			'dragVertical': true,
+			'frameCount': 49,
+			'frameWidth': 149,
+			'frameHeight': 149,
+			'detent': true,
+			'detentThreshold': 5,
+			'minimumValue': 0,
+			'maximumValue': 100,
+			'hideInput': false
+		});
+
+    	var locked = false;
+    	var curVolume = 0;
+
+    	$("#volume").bind("knobdrag", function(event) {
+	    	volume = $("#volume").knobRot('getvalue');
+    	});
+
+    	$("#volume").bind("knobmouseout", function(event) {
+    		console.log("called");
+
+    		volume = $("#volume").knobRot('getvalue');
+
+    		if(curVolume != volume) {
+	    		$.post(CONFIG.host + "/api/", {
+					network: "shoutzor",
+					method: "changevolume",
+					volume: volume
+				}, function(data) {
+					if(data.shoutzor.result != undefined) {
+						return true;
+					} else {
+						return false;
+					}
+				}, 'json')
+				.error(function(){
+					return false;
+				});
+				curVolume = volume;
+			}
+    	});
+
+    	/*
+		$('.knob-swarm').knobRot({
+			'classes': ['circle'],
+			'frameCount': 69,
+			'detent': true,
+			'detentThreshold': 5,
+			'minimumValue': -60,
+			'maximumValue': 60
+		});
+		*/
+		
+		var updateSystemInfo = function() {
+			console.log("updating system info");
+
+			$.post(CONFIG.host + "/api/", {
+				network: "shoutzor",
+				method: "getsysteminfo"
+			}, function(data) {
+				if(data.shoutzor.result != undefined) {
+					if(data.shoutzor.result.mainliquidsoap_status !== false) {
+						$("#liquidsoapStatus #toggleMainService").removeClass().addClass("btn btn-danger").html("Stop Main");
+						$("#liquidsoapStatus #mainService").removeClass().addClass("alert alert-success").html("The Main LiquidSoap service is running, uptime: "+data.shoutzor.result.mainliquidsoap_status);
+					} else {
+						$("#liquidsoapStatus #toggleMainService").removeClass().addClass("btn btn-success").html("Start Main");
+						$("#liquidsoapStatus #mainService").removeClass().addClass("alert alert-danger").html("The Main LiquidSoap service is not running");
+					}
+
+					if(data.shoutzor.result.shoutzorliquidsoap_status !== false) {
+						$("#liquidsoapStatus #toggleShoutzorService").removeClass().addClass("btn btn-danger").html("Stop Shoutzor");
+						$("#liquidsoapStatus #shoutzorService").removeClass().addClass("alert alert-success").html("The Shoutzor LiquidSoap service is running, uptime: "+data.shoutzor.result.shoutzorliquidsoap_status);
+					} else {
+						$("#liquidsoapStatus #toggleShoutzorService").removeClass().addClass("btn btn-success").html("Start Shoutzor");
+						$("#liquidsoapStatus #shoutzorService").removeClass().addClass("alert alert-danger").html("The Shoutzor LiquidSoap service is not running");
+					}
+				} else {
+					//error handling
+				}
+			}, 'json')
+			.error(function(){
+				//An error occured while fetching the API result
+			});
+		};
+
+		this.set('intervalUpdate', setInterval(function() {
+			updateSystemInfo();
+		}, 5000));
+		updateSystemInfo();
+
+		$("#liquidsoapStatus #toggleMainService").click(function() {
+			var c = confirm("Are you sure?");
+
+			if(c == true) {
+				var operation = ($(this).hasClass("btn-success")) ? "start" : "stop";
+
+				$.post(CONFIG.host + "/api/", {
+					network: "shoutzor",
+					method: "toggleliquidsoap",
+					service: "main",
+					operation: operation
+				}, function(data) {
+					//Do nothing.
+				}, 'json')
+				.error(function(){
+					//An error occured while fetching the API result
+				});
+			} else {
+				//Do nothing.
+			}
+		});
+
+		$("#liquidsoapStatus #toggleShoutzorService").click(function() {
+			var c = confirm("Are you sure?");
+
+			if(c == true) {
+				var operation = ($(this).hasClass("btn-success")) ? "start" : "stop";
+
+				$.post(CONFIG.host + "/api/", {
+					network: "shoutzor",
+					method: "toggleliquidsoap",
+					service: "shoutzor",
+					operation: operation
+				}, function(data) {
+					//Do nothing.
+				}, 'json')
+				.error(function(){
+					//An error occured while fetching the API result
+				});
+			} else {
+				//Do nothing.
+			}
+		});
+
+		$("#liquidsoapStatus #nextTrack").click(function() {
+			var c = confirm("Are you sure?");
+
+			if(c == true) {
+				$.post(CONFIG.host + "/api/", {
+					network: "shoutzor",
+					method: "toggleliquidsoap",
+					service: "shoutzor",
+					operation: "next"
+				}, function(data) {
+					//Do nothing.
+				}, 'json')
+				.error(function(){
+					//An error occured while fetching the API result
+				});
+			} else {
+				//Do nothing.
+			}
+		});
+
+		$("#liquidsoapStatus #cpForward").click(function() {
+			var c = confirm("Are you sure?");
+
+			if(c == true) {
+				$.post(CONFIG.host + "/api/", {
+					network: "shoutzor",
+					method: "correctplaylistforward"
+				}, function(data) {
+					//Do nothing.
+				}, 'json')
+				.error(function(){
+					//An error occured while fetching the API result
+				});
+			} else {
+				//Do nothing.
+			}
+		});
+
+		$("#liquidsoapStatus #cpBackward").click(function() {
+			var c = confirm("Are you sure?");
+
+			if(c == true) {
+				$.post(CONFIG.host + "/api/", {
+					network: "shoutzor",
+					method: "correctplaylistbackward"
+				}, function(data) {
+					//Do nothing.
+				}, 'json')
+				.error(function(){
+					//An error occured while fetching the API result
+				});
+			} else {
+				//Do nothing.
+			}
+		});
+    },
+
+    willDestroyElement: function(event) {
+    	clearInterval(this.get('intervalUpdate'));
+		/*
+    	$('#volume').knobRot('stopCallback');
+		$('.knob-swarm').knobRot('stopCallback');
+		*/
+    }
+});

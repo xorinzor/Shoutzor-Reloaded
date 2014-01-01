@@ -1,0 +1,321 @@
+[16:53:10][NOTIFICATION] - Log file created. 
+[16:53:10][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[16:53:20][FATAL] string(27) "getID3 failed, error: Array"
+ - in /var/www/inc/php/core/trackfile.class.php at line 57 
+[16:54:10][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[16:54:19][FATAL] string(94) "getID3 failed, error: Array
+(
+    [0] => Could not find valid MPEG synch before end of file
+)
+"
+ - in /var/www/inc/php/core/trackfile.class.php at line 57 
+[16:55:12][INVALID_TYPE] string(66) "errorcode: 4 - message: syntax error, unexpected 'endif' (T_ENDIF)"
+ - in /var/www/inc/php/core/trackfile.class.php at line 97 
+[16:55:12][INVALID_TYPE] string(66) "errorcode: 4 - message: syntax error, unexpected 'endif' (T_ENDIF)"
+ - in /var/www/inc/php/core/trackfile.class.php at line 97 
+[16:55:17][INVALID_TYPE] string(66) "errorcode: 4 - message: syntax error, unexpected 'endif' (T_ENDIF)"
+ - in /var/www/inc/php/core/trackfile.class.php at line 97 
+[16:55:17][INVALID_TYPE] string(66) "errorcode: 4 - message: syntax error, unexpected 'endif' (T_ENDIF)"
+ - in /var/www/inc/php/core/trackfile.class.php at line 97 
+[16:55:22][INVALID_TYPE] string(66) "errorcode: 4 - message: syntax error, unexpected 'endif' (T_ENDIF)"
+ - in /var/www/inc/php/core/trackfile.class.php at line 97 
+[16:55:22][INVALID_TYPE] string(66) "errorcode: 4 - message: syntax error, unexpected 'endif' (T_ENDIF)"
+ - in /var/www/inc/php/core/trackfile.class.php at line 97 
+[16:55:27][INVALID_TYPE] string(66) "errorcode: 4 - message: syntax error, unexpected 'endif' (T_ENDIF)"
+ - in /var/www/inc/php/core/trackfile.class.php at line 97 
+[16:55:27][INVALID_TYPE] string(66) "errorcode: 4 - message: syntax error, unexpected 'endif' (T_ENDIF)"
+ - in /var/www/inc/php/core/trackfile.class.php at line 97 
+[16:56:44][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:04:03][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:04:04][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:04:06][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:04:09][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:04:10][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:04:12][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:04:14][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:04:16][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:04:18][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:04:20][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:04:23][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:04:24][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:04:25][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:04:26][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:04:28][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:04:29][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:04:31][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:04:32][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:04:33][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:04:34][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:04:36][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:04:37][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:04:39][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:04:40][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:04:42][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:04:43][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:04:44][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:04:46][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:04:47][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:04:48][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:04:49][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:04:50][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:04:53][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:04:55][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:04:56][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:04:58][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:05:00][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:05:02][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:05:04][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:05:06][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:05:09][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:05:11][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:05:12][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:05:15][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:05:17][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:05:18][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:05:21][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:05:23][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:05:24][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:05:26][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:06:47][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:08:01][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[17:08:01][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 
+[17:08:06][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[17:08:06][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 
+[17:08:10][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[17:08:10][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 
+[17:08:17][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:08:47][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:08:48][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:08:48][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:08:53][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:08:57][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:08:59][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:09:05][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:09:06][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:09:08][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:09:10][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:09:12][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:09:12][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:09:14][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:09:15][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:09:16][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:09:30][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:12:15][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:12:23][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:12:45][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[17:12:45][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 
+[17:12:48][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[17:12:48][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 
+[17:12:56][ERROR] string(124) "errorcode: 2 - message: filemtime(): stat failed for ./templates_c/785ebf5ce4ad10e778da8a0490498381c4fde68e.file.403.tpl.php"
+ - in /var/www/inc/php/lib/smarty/sysplugins/smarty_resource.php at line 733 
+[17:13:44][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[17:13:44][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 
+[17:19:23][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:19:24][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:19:26][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:19:27][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:19:28][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:19:30][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:19:31][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:19:33][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:19:34][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:19:36][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:19:37][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:19:39][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:19:41][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:19:42][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:19:44][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:19:45][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:19:47][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:19:48][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:19:50][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[17:19:51][DEBUG] string(15) "indexer running"
+ - in /var/www/inc/php/core/indexer.class.php at line 12 
+[18:08:31][ERROR] string(30) "could not execute search query"
+ - in /var/www/inc/php/core/tracks.class.php at line 312 
+[18:08:34][ERROR] string(30) "could not execute search query"
+ - in /var/www/inc/php/core/tracks.class.php at line 312 
+[18:08:36][ERROR] string(30) "could not execute search query"
+ - in /var/www/inc/php/core/tracks.class.php at line 312 
+[18:09:06][ERROR] string(265) "could not execute search query, error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS relevance
+					OR 
+						id IN (SELECT track FROM `track_artist` WHERE artist' at line 6"
+ - in /var/www/inc/php/core/tracks.class.php at line 312 
+[18:11:04][ERROR] string(91) "could not execute search query, error: The used table type doesn't support FULLTEXT indexes"
+ - in /var/www/inc/php/core/tracks.class.php at line 311 
+[18:11:12][ERROR] string(91) "could not execute search query, error: The used table type doesn't support FULLTEXT indexes"
+ - in /var/www/inc/php/core/tracks.class.php at line 312 
+[18:11:13][ERROR] string(91) "could not execute search query, error: The used table type doesn't support FULLTEXT indexes"
+ - in /var/www/inc/php/core/tracks.class.php at line 312 
+[18:17:16][ERROR] string(260) "could not execute search , error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's
+					OR 
+						id IN (SELECT track FROM `track_artist` WHERE artist IN (SELECT' at line 8"
+ - in /var/www/inc/php/core/tracks.class.php at line 310 
+[18:19:49][DEBUG] string(295) "SELECT 
+						SQL_CALC_FOUND_ROWS id 
+					FROM 
+						`track` 
+					WHERE 
+						title LIKE '%letz+rock%'
+					OR 
+						filename LIKE '%letz+rock%'
+					OR 
+						id IN (SELECT track FROM `track_artist` WHERE artist IN (SELECT id FROM `artist` WHERE name LIKE '%letz+rock%')) 
+					LIMIT 0, 25"
+ - in /var/www/inc/php/core/tracks.class.php at line 310 
+[18:20:22][DEBUG] string(295) "SELECT 
+						SQL_CALC_FOUND_ROWS id 
+					FROM 
+						`track` 
+					WHERE 
+						title LIKE '%letz+rock%'
+					OR 
+						filename LIKE '%letz+rock%'
+					OR 
+						id IN (SELECT track FROM `track_artist` WHERE artist IN (SELECT id FROM `artist` WHERE name LIKE '%letz+rock%')) 
+					LIMIT 0, 25"
+ - in /var/www/inc/php/core/tracks.class.php at line 310 
+[18:20:53][DEBUG] string(295) "SELECT 
+						SQL_CALC_FOUND_ROWS id 
+					FROM 
+						`track` 
+					WHERE 
+						title LIKE '%letz+rock%'
+					OR 
+						filename LIKE '%letz+rock%'
+					OR 
+						id IN (SELECT track FROM `track_artist` WHERE artist IN (SELECT id FROM `artist` WHERE name LIKE '%letz+rock%')) 
+					LIMIT 0, 25"
+ - in /var/www/inc/php/core/tracks.class.php at line 310 
+[18:21:26][DEBUG] string(16) "query: letz+rock"
+ - in /var/www/inc/php/core/tracks.class.php at line 293 
+[18:21:26][DEBUG] string(295) "SELECT 
+						SQL_CALC_FOUND_ROWS id 
+					FROM 
+						`track` 
+					WHERE 
+						title LIKE '%letz+rock%'
+					OR 
+						filename LIKE '%letz+rock%'
+					OR 
+						id IN (SELECT track FROM `track_artist` WHERE artist IN (SELECT id FROM `artist` WHERE name LIKE '%letz+rock%')) 
+					LIMIT 0, 25"
+ - in /var/www/inc/php/core/tracks.class.php at line 312 
+[18:23:12][DEBUG] string(16) "query: letz+rock"
+ - in /var/www/inc/php/core/tracks.class.php at line 293 
+[18:23:12][DEBUG] string(295) "SELECT 
+						SQL_CALC_FOUND_ROWS id 
+					FROM 
+						`track` 
+					WHERE 
+						title LIKE '%letz rock%'
+					OR 
+						filename LIKE '%letz rock%'
+					OR 
+						id IN (SELECT track FROM `track_artist` WHERE artist IN (SELECT id FROM `artist` WHERE name LIKE '%letz rock%')) 
+					LIMIT 0, 25"
+ - in /var/www/inc/php/core/tracks.class.php at line 312 

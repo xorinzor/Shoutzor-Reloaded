@@ -1,0 +1,89 @@
+/*
+ * The following 3 styles are all that are required for the knobs
+ */
+
+.rot-knob{
+	background-image: url(../../images/ui/knobs/blueplastic/blueplastic.png);
+}
+
+.black.rot-knob-base{
+	background-image: url(../../images/ui/knobs/blackgear/blackgear.png);
+}
+
+.circle.rot-knob-base{
+	background-image: url(../../images/ui/knobs/circle/circle.png);
+}
+
+/*
+ * The rest of this stylesheet is just to make the demo page look nice
+ */
+ 
+ .rot-knob-base{
+	margin: 0 auto;
+ }
+ 
+ .knob-container{
+	text-align: center;
+	width: 100px;
+	height: 100px;
+	float: left;
+ }
+
+  .knob-container-large {
+	text-align: center;
+	width: 250px;
+	height: 250px;
+	float: left;
+ }
+ 
+ .knob-swarm-container{
+ 	margin: 0 50px;
+	width: 500px;
+	float: left;
+ }
+ 
+ .knob-swarm-description{
+	margin-left: 350px;
+ }
+ 
+ h2{
+	clear: both;
+ }
+ 
+ .knob-description{
+	margin-left: 150px;
+ }
+ 
+.knob-values{
+	width: 50px;	
+	text-align: center;
+	border: 0;
+    -moz-user-select:none;
+	-webkit-user-select:none;
+	user-select:none;
+	-ms-user-select:none;
+}
+
+pre {
+	border: 1px solid orange;
+	padding: 10px;
+	background-color: lightYellow;
+}
+
+/*-----------------------------------*/
+/* Knobs */
+/*-----------------------------------*/
+
+.widget-knob.widget-volume{
+  position: relative;
+  width: 149px;
+  height: 149px;
+  background: url(../../images/ui/knob-volume-bg.png) no-repeat;
+  padding:47px 50px;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.volume{background-image: url(../../images/ui/knob-volume.png);}
+
+.widget-knob input{display: none;}

@@ -1,0 +1,31 @@
+Shoutzor.Router.map(function() {
+    //Home Page
+    this.route("home", { path: "/" });
+    
+    //Search Page
+    this.route('search', { path: "/search"});
+
+	//Queue Page
+    this.route("queue", { path: "/queue" });
+
+    //Chat Page
+    this.route("chat", { path: "/chat" });
+
+    //Upload Page
+    this.route("upload", { path: "/upload" });
+
+    //Profile Page
+    this.route("profile", { path: "/profile" });
+
+    //Settings Page
+    this.route("settings", { path: "/settings" });
+
+    //Track Page
+    this.route("track", { path: "/track/:id" });
+
+    //Artist Page
+    this.route("artist", { path: "/artist/:id" });
+
+    //Album Page
+    this.route("album", { path: "/album/:id" });
+});

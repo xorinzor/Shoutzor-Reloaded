@@ -1,0 +1,9 @@
+/* TEAM */
+	Web developer: Jorin Vermeulen
+	Twitter: @xorinzor
+	From:Groningen, The Netherlands
+
+/* SITE */
+	Last update:2011/09/03
+	Language:English
+	Doctype:XHTML

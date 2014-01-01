@@ -1,0 +1,25 @@
+Shoutzor.SearchController = Ember.Controller.extend({
+	needs:['requesttrack'],
+
+	search: '',
+	query: false,
+	searching: false,
+
+	actions: {
+		query: function(query) {
+			if(query == undefined || query == null) var query = '';
+			
+			var controller = this;
+
+			controller.set("search", query);
+			controller.set("query", true);
+			controller.set("searching", true);
+
+			this.store.find('search', { query: query }).then(function(){
+				controller.set("searching", false);
+			}, function() {
+				controller.set("searching", false);
+			})
+		}
+	}
+});

@@ -1,0 +1,32 @@
+Shoutzor.UploadPageContentView = Ember.View.extend({
+    didInsertElement: function(event) {
+    	console.log("rendering upload page");
+
+		function abortUpload (e) {
+			e.preventDefault();
+			var template = $(e.currentTarget).closest('.template-upload'),
+			data = template.data('data') || {}; // data, data , data (queue Monty Python skit)
+
+			if (!data.jqXHR) {
+				data.errorThrown = 'abort';
+				this._trigger('fail', e, data);
+			} else {
+				data.jqXHR.abort();
+			}
+		}
+
+    	$('#fileupload').fileupload({
+			url: 				CONFIG.fileuploadapi,
+			type: 				"POST",
+			formAcceptCharset: 	"utf-8",
+			singleFileUploads: 	true,
+			sequentialUploads: 	true,
+			autoUpload: 		true,
+			maxFileSize: 		31457280,
+			acceptFileTypes: /(\.|\/)(mp3|ogg|flac)$/i,
+
+			filesContainer: $('#fileupload table'),
+			uploadTemplateId: 'template-upload'
+		});
+    }
+});

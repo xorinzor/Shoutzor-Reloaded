@@ -1,0 +1,9 @@
+Shoutzor.ProfileRoute = Ember.Route.extend({
+    setupController: function(controller, model) {
+        controller.set('pageTitle', "Profile");
+    },
+    
+    renderTemplate: function() {
+        this.render('ProfilePageContent', { outlet: 'pageContent', into: 'application' });
+    }
+});

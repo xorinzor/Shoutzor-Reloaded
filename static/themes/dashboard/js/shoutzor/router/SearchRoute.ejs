@@ -1,0 +1,17 @@
+Shoutzor.SearchRoute = Ember.Route.extend({
+	setupController: function(controller, model) {
+		controller.set('pageTitle', "Search");
+		controller.set('model', model);
+		controller.set("search", '');
+		controller.set("query", false);
+		controller.set("searching", false);
+	},
+	
+	renderTemplate: function() {
+		this.render('SearchPageContent', { outlet: 'pageContent', into: 'application' });
+	},
+
+	model: function() {
+		return this.store.all('search');
+	}
+});

@@ -1,0 +1,12 @@
+Shoutzor.ApplicationAdapter = DS.RESTAdapter.extend({
+	host: CONFIG.host,
+	namespace: CONFIG.namespace,
+
+	buildURL: function(record, suffix) {
+		return this._super(record,suffix) + '/';
+	}
+});
+
+Shoutzor.store = DS.Store.create({
+	adapter: Shoutzor.ApplicationAdapter.create()
+});

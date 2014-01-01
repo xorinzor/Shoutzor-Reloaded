@@ -1,0 +1,35 @@
+var attr = DS.attr,
+    hasMany = DS.hasMany;
+
+Shoutzor.Track = DS.Model.extend({
+	title: attr('string'),
+	length: attr('number'),
+	artist: hasMany('artist'),
+	album: hasMany('album'),
+
+	/* Convert the length in seconds to a string like '01:55' */
+	convertedLength: function() {
+		var sec_num = parseInt(this.get('length'), 10); // don't forget the second parm
+	    var hours   = Math.floor(sec_num / 3600);
+	    var minutes = Math.floor((sec_num - (hours * 3600)) / 60);
+	    var seconds = sec_num - (hours * 3600) - (minutes * 60);
+
+	    if (hours   < 10 && hours > 0) {hours   = "0"+hours;}
+	    if (minutes < 10 && minutes > 0) {minutes = "0"+minutes;}
+	    if (seconds < 10) {seconds = "0"+seconds;}
+	    var time    = ((hours != 0) ? hours + ':' : '') + ((minutes != 0) ? minutes +':' : '') + seconds;
+
+		return time;
+	}.property('length'),
+
+	artistNames: function() {
+		var result = '';
+
+		this.get('artist').forEach(function(action) {
+			if(result != '') result += ", ";
+			result += action.get("name");
+		});
+
+		return result;
+	}.property('artist')
+});

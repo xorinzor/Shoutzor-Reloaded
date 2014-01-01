@@ -1,0 +1,16 @@
+Shoutzor.TrackRoute = Ember.Route.extend({
+    setupController: function(controller, model) {
+        controller.set('pageTitle', "Track");
+
+        var store = this.get('store');
+        controller.set("track", store.find('track', model.get("id")));
+    },
+    
+    renderTemplate: function() {
+        this.render('TrackContent', { outlet: 'pageContent', into: 'application' });
+    },
+
+    model: function(params) {
+        return this.store.find('track', params.id);
+    }
+});

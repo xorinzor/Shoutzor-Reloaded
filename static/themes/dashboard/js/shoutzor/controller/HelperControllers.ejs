@@ -1,0 +1,26 @@
+Shoutzor.ArtistnameController = Ember.ArrayController.extend({
+	itemController: 'normalItem'
+});
+
+Shoutzor.ArtistnamenolinkController = Ember.ArrayController.extend({
+	itemController: 'normalItem'
+});
+
+
+Shoutzor.AlbumnameController = Ember.ArrayController.extend({
+	itemController: 'normalItem'
+});
+
+Shoutzor.NormalItemController = Ember.ObjectController.extend({
+	needs: ['application']
+});
+
+Shoutzor.AlbumContentController = Ember.ObjectController.extend({
+	needs: ['requesttrack'],
+	
+	tracks: function() {
+		var albumId = this.get('model.id');
+
+		return this.store.find('track', { artist: albumId });
+	}.property('model')
+});

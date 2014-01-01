@@ -1,0 +1,13 @@
+var attr = DS.attr;
+
+Shoutzor.User = DS.Model.extend({
+	name: 			attr('string'),
+	firstname: 		attr('string'),
+	email: 			attr('string'),
+	joined: 		attr('date'),
+	last_active: 	attr('date'),
+
+	fullname: function() {
+		return this.get('firstname') + ' ' + this.get('name');
+	}.property('name', 'firstname')
+});

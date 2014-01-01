@@ -1,0 +1,18 @@
+var attr = DS.attr,
+    belongsTo = DS.belongsTo;
+
+Shoutzor.History = DS.Model.extend({
+	track: belongsTo('track'),
+	user: belongsTo('user'),
+	time_played: attr('date'),
+
+	print_time: function() {
+		var d = new Date(this.get('time_played'));
+
+		var hours 	= (d.getHours() < 10 ? "0" : '') + d.getHours(),
+			minutes = (d.getMinutes() < 10 ? "0" : '') + d.getMinutes(),
+			seconds = (d.getSeconds() < 10 ? "0" : '') + d.getSeconds();
+
+		return  hours + ":" + minutes + ":" + seconds;
+	}.property('time_played')
+});

@@ -1,0 +1,43 @@
+Shoutzor.PlayersettingsController = Ember.Controller.extend({
+	singleButton: [
+		Ember.Object.create({title: 'Close', clicked: 'closeManual'})
+	],
+
+	closeManual: function() {
+		return Bootstrap.ModalManager.close('playerSettingsModal');
+	},
+
+	submitManual: function() {
+		Bootstrap.ModalManager.close('playerSettingsModal');
+
+		var jqxhr = $.getJSON(CONFIG.host + "/" + CONFIG.namespace + "/request/"+this.get('track.id'), function(data) {
+			if(data.result === true) {
+				var classname = 'alert alert-success';
+			} else {
+				var classname = 'alert alert-danger';
+			}
+
+			$(".modal-body").html("<div class='"+classname+"'>"+data.message+"</p>");
+		})
+		.fail(function() {
+			$(".modal-body").html("<p>The request for your track failed, if this error keeps happening please report it.</p>");
+		});
+
+		return false;
+	},
+
+	actions: {
+		getsettings: function() {
+			//@property {string} The name of the modal, required later to close the modal (see submitManual function above)
+			//@property {string} The title of the modal.
+			//@property {string} The template name to render within the modal body, a View class may also be specified.
+			//@property {array} Array of Button meta data
+			//@property {object} The controller instance that instantiate the modal.
+			Bootstrap.ModalManager.open('playerSettingsModal', 'Player Settings', 'playersettings', this.singleButton, this)
+		}
+	},
+
+	model: function() {
+		return this.get('track');
+	}.property('track')
+})

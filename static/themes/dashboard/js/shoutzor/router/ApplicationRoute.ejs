@@ -1,0 +1,65 @@
+Shoutzor.ApplicationRoute = Ember.Route.extend({
+	setupController: function(controller) {
+		var store = this.get('store');
+
+        controller.set("history", store.all('history'));
+        controller.set("queue", store.all('queue'));
+        controller.set("artist", store.all('artist'));
+        controller.set("album", store.all('album'));
+        controller.set("track", store.all('track'));
+
+        controller.set("nextSong", store.find('queue', 1));
+        controller.set("currentSong", store.find('history', 1));
+        controller.set("previousSong", store.find('history', 2));
+	},
+
+	renderTemplate: function() {
+		this.render("application"); //Render de standaard template voor gebruik
+
+		/* right sidebar */
+		this.render("rightSidebarOutput", { outlet: 'rightSidebarOutput', into: 'application' });
+	},
+
+	model: function() {
+		var store = this.get('store');
+		store.find('history').then(function(record){
+			record.content.sort();
+			$("#updateContainer").statusUpdate({
+				profileImage: "/static/themes/dashboard/images/album-cover-placeholder.jpg",
+				nowplaying: record.content[0]
+			});
+		});
+		store.find('queue').then(function(record){
+			record.content.sort();
+			record.content.forEach(function(rec) {
+				Ember.run.once(this, function() {
+					$("#updateContainer").statusUpdate({
+						request: rec
+					});
+				});
+			}, this);
+		});
+
+		setInterval(function(){
+			store.find('queue').then(function(record){
+				record.content.sort();
+				record.content.forEach(function(rec) {
+					Ember.run.once(this, function() {
+						$("#updateContainer").statusUpdate({
+							request: rec
+						});
+					});
+				}, this);
+			});	
+
+			store.find('history').then(function(record){
+				record.content.sort();
+				$("#updateContainer").statusUpdate({
+					profileImage: "/static/themes/dashboard/images/album-cover-placeholder.jpg",
+					nowplaying: record.content[0]
+				});
+			});
+
+		}, 5000);
+	}
+});

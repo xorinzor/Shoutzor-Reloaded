@@ -1,0 +1,9 @@
+Shoutzor.SettingsRoute = Ember.Route.extend({
+    setupController: function(controller, model) {
+        controller.set('pageTitle', "System settings");
+    },
+    
+    renderTemplate: function() {
+        this.render('SettingsPageContent', { outlet: 'pageContent', into: 'application' });
+    }
+});

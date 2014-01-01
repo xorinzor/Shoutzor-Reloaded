@@ -1,0 +1,12 @@
+Shoutzor.QueueRoute = Ember.Route.extend({
+    setupController: function(controller, model) {
+        controller.set('pageTitle', "Queue");
+
+        var store = this.get('store');
+        controller.set("model", store.all('queue'));
+    },
+    
+    renderTemplate: function() {
+        this.render('QueuePageContent', { outlet: 'pageContent', into: 'application' });
+    }
+});

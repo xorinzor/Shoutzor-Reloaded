@@ -1,0 +1,217 @@
+[11:53:30][NOTIFICATION] - Log file created. 
+[11:53:36][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[11:53:36][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 
+[11:53:42][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[11:53:42][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 
+[11:53:47][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[11:53:47][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 
+[11:53:52][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[11:53:52][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 
+[11:53:57][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[11:53:57][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 
+[11:54:02][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[11:54:02][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 
+[11:54:07][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[11:54:07][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 
+[11:54:12][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[11:54:12][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 
+[11:54:17][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[11:54:17][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 
+[11:54:22][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[11:54:22][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 
+[11:54:27][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[11:54:27][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 
+[11:54:32][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[11:54:32][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 
+[11:54:37][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[11:54:37][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 
+[11:54:42][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[11:54:42][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 
+[11:54:47][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[11:54:47][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 
+[11:54:52][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[11:54:52][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 
+[11:54:57][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[11:54:57][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 
+[11:55:02][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[11:55:02][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 
+[11:55:07][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[11:55:07][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 
+[11:55:12][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[11:55:12][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 
+[11:55:17][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[11:55:17][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 
+[11:55:22][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[11:55:22][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 
+[11:55:27][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[11:55:27][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 
+[11:55:32][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[11:55:32][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 
+[11:55:37][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[11:55:37][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 
+[11:55:42][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[11:55:42][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 
+[11:55:47][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[11:55:47][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 
+[11:55:52][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[11:55:52][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 
+[11:55:57][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[11:55:57][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 
+[11:57:20][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[11:57:20][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 
+[11:58:55][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[11:58:55][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 
+[11:59:01][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[11:59:01][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 
+[11:59:06][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[11:59:06][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 
+[11:59:11][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[11:59:11][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 
+[11:59:16][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[11:59:16][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 
+[11:59:21][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[11:59:21][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 
+[11:59:26][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[11:59:26][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 
+[11:59:31][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[11:59:31][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 
+[11:59:36][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[11:59:36][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 
+[11:59:42][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[11:59:42][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 
+[12:00:58][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[12:00:58][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 
+[12:01:03][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[12:01:03][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 
+[12:01:08][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[12:01:08][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 
+[12:01:14][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[12:01:14][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 
+[12:01:41][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[12:01:41][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 
+[12:01:41][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[12:01:41][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 
+[12:16:20][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[12:16:20][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 
+[12:35:01][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[12:35:01][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 
+[12:35:06][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[12:35:06][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 
+[12:46:41][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[12:46:41][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 
+[12:54:19][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[12:54:19][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 
+[15:02:58][FATAL] string(73) "errorcode: 1 - message: Call to a member function getId() on a non-object"
+ - in /var/www/inc/php/core/session.class.php at line 149 
+[15:02:58][ERROR] string(133) "errorcode: 2 - message: filemtime(): stat failed for ./templates_c/0a2b4fd449d90980da5eb1742f36ed8ee442206f.file.header_error.tpl.php"
+ - in /var/www/inc/php/lib/smarty/sysplugins/smarty_resource.php at line 733 
+[15:02:58][ERROR] string(50) "errorcode: 2 - message: mkdir(): Permission denied"
+ - in /var/www/inc/php/lib/smarty/sysplugins/smarty_internal_write_file.php at line 37 
+[15:02:58][ERROR] string(133) "errorcode: 2 - message: file_put_contents(./templates_c/wrt5299f01211ca82.61498009): failed to open stream: No such file or directory"
+ - in /var/www/inc/php/lib/smarty/sysplugins/smarty_internal_write_file.php at line 42 
+[18:35:01][ERROR] string(90) "errorcode: 2 - message: socket_connect(): unable to connect [2]: No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 18 
+[18:35:01][DEBUG] string(46) "Unable to connect to No such file or directory"
+ - in /var/www/inc/php/core/liquidsoap.class.php at line 58 

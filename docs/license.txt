@@ -1,0 +1,3 @@
+This software is written by Jorin Vermeulen and may NOT to be used for resale or other commercial applications without permission.
+You are allowed to use this code/system AS-IS, however:
+Any use of this code in your own application without written permission or consent is illegal (so just email me at jorin.vermeulen@gmail.com and I'm sure we can work something out)

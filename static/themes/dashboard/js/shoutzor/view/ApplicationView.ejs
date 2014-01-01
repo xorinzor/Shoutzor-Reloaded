@@ -1,0 +1,105 @@
+/**
+ * Default view - contains default/global variables to be used
+ */
+Shoutzor.ApplicationView = Ember.View.extend({
+    didInsertElement: function(event) {
+        /* js stuff after rendering */
+        function init() {
+			var width = 326;
+			var height = 326;
+			var cssWidth = 326;
+			var cssHeight = 326;
+
+			var screenElement = $("#equalizerContainer").get(0);
+			var audioElement = $("#audio").get(0);
+			var scriptElement = "/static/themes/dashboard/js/equalizer/presets/void.js";
+
+			Pocket.init(screenElement, audioElement, scriptElement, {w:width, h:height, watchHash : true});
+
+			/*
+			setTimeout(function(){
+				//soundManager.stop("pocketsound");
+				soundManager.play("shoutzor");
+			}, 1000);
+			*/
+
+			if($.cookie('visualizer') != undefined) {
+				Pocket.loadScript($.cookie('visualizer'));
+
+				if($.cookie('visualizer') == '/static/themes/dashboard/js/equalizer/presets/empty.js') {
+					$("#equalizerContainer").hide();
+				}
+			}
+			
+			$("body").on("click", "#equalizerVisualisations li", function() {
+				$.cookie('visualizer', $(this).attr("data-script"), { expires: 7, path: '/' });
+				Pocket.loadScript($(this).attr("data-script"));
+				if($(this).hasClass("empty")) {
+					$("#equalizerContainer").hide();
+				} else {
+					$("#equalizerContainer").show();
+				}
+			});
+		}
+
+		init();
+
+		$('#bar').minibar({ width: 70, height: 5, a: 5, b: 5 });
+
+		$("li.like, li.dislike").click(function(){
+			$("li.like span, li.dislike span").removeClass("active");
+			$(this).find("span").addClass("active");
+
+			if($(this).hasClass("like")) {
+				$("#likes").html("51%");
+				$("#dislikes").html("49%");
+				$('#bar').minibar({ width: 70, height: 5, a: 6, b: 4 });
+			} else {
+				$("#likes").html("49%");
+				$("#dislikes").html("51%");
+				$('#bar').minibar({ width: 70, height: 5, a: 4, b: 6 });
+			}
+		});
+
+		//Music player event handlers
+		$("body").on("playmusic", function(){
+			$("#player-controls li.progressbar .progress").addClass("progress-striped active");
+			$("#player-controls li.play span").removeClass().addClass("pause-icon");
+		}).on("stopmusic", function(){
+			$("#player-controls li.play span").removeClass().addClass("play-icon");
+			$("#player-controls li.progressbar .progress").removeClass("progress-striped active");
+		});
+
+		$("li.play").click(function(){
+			if($("li.play").find("span").hasClass("play-icon")) {
+				//Speel muziek af
+				soundManager.unload("shoutzor");
+				soundManager.play("shoutzor");
+			} else {
+				//Stop muziek
+				soundManager.stop("shoutzor");
+			}
+		});
+
+		$('.slider').slider({
+			min: 100,
+			max: 0,
+			step: 1,
+			orientation: 'vertical',
+			value: 100,
+			tooltip: 'hide',
+			handle: 'round'
+		})
+		.on('slide', function(ev) {
+			$(".slide").slider('setValue', ev.value);
+			soundManager.setVolume("shoutzor", ev.value);
+		});
+
+		$("*[data-toggle=tooltip]").tooltip({
+			trigger: 'hover',
+			animation: false,
+			placement: 'right',
+			delay: 0
+		});
+    }
+});

@@ -1,0 +1,18 @@
+Shoutzor.AlbumRoute = Ember.Route.extend({
+    setupController: function(controller, model) {
+        var albumId = model.get("id");
+        var artistId = model.get("artist");
+
+        var store = this.get('store');
+        controller.set("album", model);
+        controller.set("artist", model.get("artist"));
+    },
+    
+    renderTemplate: function() {
+        this.render('AlbumPageContent', { outlet: 'pageContent', into: 'application' });
+    },
+
+    model: function(params) {
+        return this.store.find('album', params.id);
+    }
+});

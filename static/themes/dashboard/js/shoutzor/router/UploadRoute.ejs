@@ -1,0 +1,19 @@
+Shoutzor.UploadRoute = Ember.Route.extend({
+    setupController: function(controller, model) {
+        controller.set('pageTitle', "Upload Tracks");
+    },
+    
+    renderTemplate: function() {
+        this.render('UploadPageContent', { outlet: 'pageContent', into: 'application' });
+    },
+
+    actions: {
+	    willTransition: function(transition) {
+	    	//Files are beeing uploaded!
+	    	if(parseInt($('#fileupload table .files tr.template-upload .error:empty').length)>0){
+	    		alert("There are still files beeing uploaded, you will have to wait until all uploads are finished");
+    			transition.abort();
+	    	}
+	    }
+	}
+});

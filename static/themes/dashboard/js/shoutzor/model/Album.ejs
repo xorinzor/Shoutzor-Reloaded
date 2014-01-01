@@ -1,0 +1,8 @@
+var attr = DS.attr,
+    belongsTo = DS.belongsTo;
+
+Shoutzor.Album = DS.Model.extend({
+	artist: belongsTo('artist'),
+	title: attr('string'),
+	coverImage: attr('string')
+});

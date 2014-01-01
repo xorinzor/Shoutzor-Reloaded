@@ -1,0 +1,12 @@
+Shoutzor.HomeController = Ember.Controller.extend({
+	needs: ['application'],
+	content: history,
+	sortProperties: ['time_played'],
+	sortAscending: true,
+
+	history: 		Ember.computed.alias('controllers.application.history'),
+	queue: 			Ember.computed.alias('controllers.application.queue'),
+	nextSong: 		Ember.computed.alias('controllers.application.nextSong'),
+	currentSong: 	Ember.computed.alias('controllers.application.currentSong'),
+	previousSong: 	Ember.computed.alias('controllers.application.previousSong')
+});

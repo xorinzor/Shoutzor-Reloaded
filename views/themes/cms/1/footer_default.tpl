@@ -1,0 +1,9 @@
+		</div>
+	{$THEMESECTION.BODYEND}
+
+	</body>
+	{$THEMESECTION.HTMLEND}
+
+</html>
+
+{$THEMESECTION.AFTERHTML}
