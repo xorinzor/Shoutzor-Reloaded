@@ -16,7 +16,7 @@ Linux OS with the following packages:
 
 <br />
 <b>KNOWN ISSUES:</b><br />
- + Liguiqsoap - shoutzor.liq crashes sometimes, temp solution: automatic restart by main.liq
+ + Liquidsoap - shoutzor.liq crashes sometimes, temp solution: automatic restart by main.liq
 
 <br />
 <b>LICENSE:</b></br><br />
