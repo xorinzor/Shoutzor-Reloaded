@@ -14,7 +14,7 @@ Linux OS with the following packages:
  + create installer to make it easier for new users
  + add admin panel for new users (instead of using the API terminal)
  + Voting system to temporarely ban songs from the requester
- + Code refactoring / cleanup
+ + Code refactoring / cleanup (Lots and lots of work to be done, all of it is written on an old cms with horrible code..)
  
 <br />
 <b>KNOWN ISSUES:</b><br />
