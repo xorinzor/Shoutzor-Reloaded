@@ -11,17 +11,14 @@ Linux OS with the following packages:
  
 <br />
 <b>TODO:</b><br />
+ + create installer to make it easier for new users
+ + add admin panel for new users (instead of using the API terminal)
  + Voting system to temporarely ban songs from the requester
  + Code refactoring / cleanup
-
+ 
 <br />
 <b>KNOWN ISSUES:</b><br />
  + Liquidsoap - shoutzor.liq crashes sometimes, temp solution: automatic restart by main.liq
-
-<br />
-<b>TODO:</b><br />
- + create installer to make it easier for new users
- + add admin panel for new users (instead of using the API terminal)
 
 <br />
 <b>LICENSE:</b></br><br />
