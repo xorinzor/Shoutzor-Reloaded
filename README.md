@@ -19,6 +19,11 @@ Linux OS with the following packages:
  + Liquidsoap - shoutzor.liq crashes sometimes, temp solution: automatic restart by main.liq
 
 <br />
+<b>TODO:</b><br />
+ + create installer to make it easier for new users
+ + add admin panel for new users (instead of using the API terminal)
+
+<br />
 <b>LICENSE:</b></br><br />
 This software is written by Jorin Vermeulen and may NOT to be used for resale or other commercial applications without permission.<br />
 You are allowed to use this code/system AS-IS, however:<br />
