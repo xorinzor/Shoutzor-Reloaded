@@ -25,6 +25,5 @@ Linux OS with the following packages:
 
 <br />
 <b>LICENSE:</b></br><br />
-This software is written by Jorin Vermeulen.<br />
 You are allowed to use this code/system AS-IS, However you may NOT sell it or use it for other commercial purposes without permission.<br />
 Any use of this code in your own application without permission is not allowed (if you still want to use parts of it, you can email me at jorin.vermeulen@gmail.com and I'm sure we can work something out).
