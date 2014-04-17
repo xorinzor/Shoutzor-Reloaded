@@ -1,2 +1,0 @@
-[mp3 @ 0x19edb20] max_analyze_duration reached
-Input #0, mp3, from '/home/shoutzor/music/Pentatonix - Daft Punk  mp3clan.com.mp3':
