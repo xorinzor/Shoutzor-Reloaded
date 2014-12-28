@@ -1,3 +1,9 @@
+# END-OF-LIFE
+This version of shoutz0r is no longer maintained, a new and cleaner version is in the works.
+
+<br />
+<br />
+
 <b>Shoutzor Reloaded</b><br />
 A system written to have music playing at events like a LAN-Party.<br />
 Comes with an AutoDJ when no music is requested to ensure music keeps playing.<br />
