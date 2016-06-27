@@ -1,6 +1,9 @@
 # END-OF-LIFE
 This version of shoutz0r is no longer maintained, a new and cleaner version is in the works.
 
+*NEW AND IMPROVED VERSION*
+https://www.github.com/xorinzor/pagekit-shoutzor-module
+
 <br />
 <br />
 
